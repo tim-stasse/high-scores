@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const fp = require('lodash/fp');
 const path = require('path');
 const slsw = require('serverless-webpack');
