@@ -1,0 +1,14 @@
+type HighScore {
+  score: Int!
+  date: DateTime!
+  playerId: ID!
+}
+
+type HighScoreList {
+  data: [HighScore!]!
+  cursors: Cursors!
+}
+
+type Query {
+  highScores(cursors: CursorsInput, limit: Int): HighScoreList!
+}

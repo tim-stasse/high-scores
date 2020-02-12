@@ -1,0 +1,9 @@
+type Cursors {
+  forward: String
+  backward: String
+}
+
+input CursorsInput {
+  after: String
+  before: String
+}
