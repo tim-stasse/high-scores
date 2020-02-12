@@ -47,9 +47,6 @@ If the requirements changed so that there was no need to scroll infinitely over 
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 - [Node Version Manager](https://github.com/nvm-sh/nvm#installation-and-update)
 - [Yarn](https://yarnpkg.com/lang/en/docs/install)
-
-For DynamoDB Local
-
 - [JDK-11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
 
 **Install Dependencies**
@@ -60,4 +57,5 @@ For DynamoDB Local
 **Running Locally**
 
 - `nvm use`
+- `yarn watch-graphql`
 - `yarn start`
