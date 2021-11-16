@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "apollo-server-lambda": "^2.10.0",
-    "aws-sdk": "^2.615.0",
+    "aws-sdk": "^2.814.0",
     "graphql": "^14.6.0",
     "graphql-iso-date": "^3.6.1",
     "graphql-tools": "^4.0.6",
